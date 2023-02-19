@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - Entry point
+ *
+ * Description: 'the use of putchar'
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 char ch;

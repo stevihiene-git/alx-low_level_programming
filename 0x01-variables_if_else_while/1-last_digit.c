@@ -1,6 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Description: 'this about knowing the last digit of a value of string'
+ *
+ * Return: Always 0 (Success)
+ */
 /* more headers goes there */
 /* betty style doc for function main goes there */
 int main(void)
