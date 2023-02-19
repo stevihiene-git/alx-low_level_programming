@@ -20,7 +20,7 @@ n = rand() - RAND_MAX / 2;
 lastDigit = n % 10;
 if (lastDigit < 6)
 {
-printf("Last digit of %d is %d and is less than 6 and not zero", n, lastDigit);
+printf("Last digit of %d is %d and is less than 6 and not 0", n, lastDigit);
 }
 else if (lastDigit > 6)
 {
