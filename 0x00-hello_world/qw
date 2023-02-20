@@ -1,0 +1,7 @@
+./101-quote.c: line 2: /0x01-git: Is a directory
+./101-quote.c: line 3: 0-preprocessor: command not found
+./101-quote.c: line 4: 0-preprocessor: command not found
+./101-quote.c: line 5: 0-preprocessor: command not found
+./101-quote.c: line 6: 0-preprocessor: command not found
+./101-quote.c: line 7: syntax error near unexpected token `('
+./101-quote.c: line 7: ` * Return: Always 0 (Success)'
