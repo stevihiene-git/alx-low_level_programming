@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -9,13 +9,12 @@
  */
 int main(void)
 {
-	int b10 = 0;
+	int i;
 
-	while (b10 <= 9)
+	for (i = 122; i >= 97; i--)
 	{
-	printf("%d", b10);
-	b10++;
+	putchar('0' + i);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
