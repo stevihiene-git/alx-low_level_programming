@@ -16,5 +16,6 @@ int main(void)
 	printf("%d", b10);
 	b10++;
 	}
+	printf("\n");
 	return (0);
 }
