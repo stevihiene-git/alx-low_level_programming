@@ -10,14 +10,9 @@
  */
 int main(void)
 {
-	char *mP = "_putchar";
+	char mp[] = "_putchar";
 
-	while (*mP)
-		{
-			_putchar(*mP);
-			mP++;
-		}	
-	
-	_putchar('\n');
+	_putt(mp);
+	_putt("\n");
 	return (0);
 }

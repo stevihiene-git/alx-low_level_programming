@@ -3,7 +3,7 @@
 *created
 *header
 */
-void _putchar(char ch)
+void _putt(char ch)
 	{
-	printf("%c\n", ch);
+	puts(ch);
 	}
