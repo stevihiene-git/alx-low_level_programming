@@ -4,7 +4,4 @@
  * *created
  * *header
  */
-int _putchar(char c)
-	{
-	return c;
-	}
+char _putchar(char h);

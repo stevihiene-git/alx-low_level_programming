@@ -8,13 +8,23 @@
  */
 int main(void)
 {
-	char mp[8] = "_putchar";
+/**	
+ * char mp[8] = "_putchar";
+ * int i;
+ * for (i = 0; i < 8; i++)
+ * {
+ * _putchar(mp[i]);
+ * {
+ * _putchar('\n');
+ * return (0);
+ */
+	char h[8] = "_putchar";
 	int i;
-
+	
 	for (i = 0; i < 8; i++)
 	{
-	_putchar(mp[i]);
-	{
+		_putchar(h[i]);
+	}
 	_putchar('\n');
 	return (0);
 }
