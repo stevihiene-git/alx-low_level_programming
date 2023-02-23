@@ -3,7 +3,4 @@
 *created
 *header
 */
-void _putt(char ch)
-	{
-	puts(ch);
-	}
+int _putchar(char c);
