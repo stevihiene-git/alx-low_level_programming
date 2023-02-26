@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include<stdio.h>
 
 /**
 * main - takes a date and prints how many days are left in the year, taking
@@ -7,8 +7,7 @@
 * Return: 0
 */
 
-int main(void)
-{
+int main(void){
 	int month;
 	int day;
 	int year;
