@@ -1,1 +1,1 @@
-my C progamming readme file
+Pointers, arrays and strings
