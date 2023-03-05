@@ -27,5 +27,5 @@ char *rot13(char *words)
 		}
 		i++;
 	}
-	return (str);
+	return (words);
 }
