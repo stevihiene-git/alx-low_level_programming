@@ -1,45 +1,54 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
+
 /**
- * str_concat - get ends of input and add together for size
- * @s1: input one to concat
- * @s2: input two to concat
- * Return: concat of s1 and s2
+ * str_concat - concatenates two string
+ *
+ * @s1: the first string
+ * @s2: the string to add to @s1
+ *
+ * Return: a pointer that points to a newly allocated space which
+ * contains the contents of @s1, followed by the contents of @s2,
+ * and null terminated. Should return NULL on failure
  */
+
 char *str_concat(char *s1, char *s2)
 {
-	int Aend, Bend, i = 0;
-	char *array;
+	char *s3;
+	unsigned int s1len = 0;
+	unsigned int s2len = 0;
+	unsigned int s3len;
+	unsigned int i = 0;
+	unsigned int j = 0;
 
-	if (s1 == NULL || s2 == NULL)
-		s1 = s2 = "";
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 
-	for (Aend = 0; Aend <= *s1; Aend++)
-	{
-	}
+	while (s1[s1len])
+		s1len++;
+	while (s2[s2len])
+		s2len++;
 
-	for (Bend = 0; Bend <= *s2; Bend++)
-	{
-	}
+	s3len = s1len + s2len;
 
-	array = malloc(sizeof(char) * (Aend + Bend + 1));
-
-	if (array == NULL)
+	s3 = malloc(sizeof(char) * s3len + 1);
+	if (s3 == NULL)
 		return (NULL);
 
-	while (*s1)
+	while (i < s1len)
 	{
-		array[i] = *s1;
+		s3[i] = s1[i];
 		i++;
-		s1++;
 	}
 
-	while (*s2)
+	while (i <= s3len)
 	{
-		array[i] = *s2;
+		s3[i] = s2[j];
 		i++;
-		s2++;
+		j++;
 	}
-	return (array);
+	return (s3);
 }
+
