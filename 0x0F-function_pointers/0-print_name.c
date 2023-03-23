@@ -1,4 +1,4 @@
-#include "func_poniters.h"
+#include "function_poniters.h"
 
 /**
   * print_name - Prints a name
