@@ -1,1 +1,1 @@
-reamdme for variable
+variadic function
