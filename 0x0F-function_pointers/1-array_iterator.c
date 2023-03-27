@@ -8,13 +8,17 @@
  * @action: A pointer to the function to be executed.
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
-{
-	if (array == 0 || action == 0)
-		return;
+{	
+	unsigned int i = 0;
 
-	while (size-- > 0)
-	{
-		action(*array);
-		array++;
-	}
+ 
+
+    if (array != NULL && action != NULL && size > 0)
+    {
+        while (i < size)
+        {
+            action(array[i]);
+            i++;
+        }
+    }
 }
