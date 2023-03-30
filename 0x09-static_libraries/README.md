@@ -1,1 +1,1 @@
-09-static libraries
+09-static libraries, remeber "ar rc" and "ranlib"
